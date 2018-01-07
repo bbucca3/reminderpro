@@ -15,6 +15,7 @@ input {
 }
 
 .reminder-form {
+  display: inline-block;
   padding: 5px;
 }
 
