@@ -1,9 +1,10 @@
 import { ADD_REMINDER, DELETE_REMINDER, CLEAR_REMINDERS } from '../constants';
 
-export const addReminder = (text) => {
+export const addReminder = (text, dueDate) => {
   const action = {
     type: ADD_REMINDER,
-    text // es6 shorthand for text: text
+    text, // es6 shorthand for text: text
+    dueDate
   }
   console.log('action in addReminder', action);
   return action;
